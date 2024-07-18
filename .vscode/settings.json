@@ -1,0 +1,11 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "driver": "PostgreSQL",
+      "connectString": "postgresql://postgres:12345678@localhost:5432/rfipay",
+      "name": "rfipay"
+    }
+  ]
+}

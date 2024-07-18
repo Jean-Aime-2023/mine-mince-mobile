@@ -1,0 +1,61 @@
+{
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Avoid relative imports
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+
+  "[less]": {
+    "editor.formatOnSave": true
+  },
+
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "driver": "PostgreSQL",
+      "name": "rfipay",
+      "connectString": "postgresql://postgres:fidele95@localhost:5432/rfipay"
+    }
+  ],
+}
